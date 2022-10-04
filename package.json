@@ -1,0 +1,18 @@
+{
+  "name": "react-mf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:projectcss/react-mf.git",
+  "author": "chenxuejin <chenxuejin@baidu.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": ["lib", "component", "main"]
+  },
+  "scripts": {
+    "start": "concurrently 'cd ./component && yarn start' 'cd ./lib && yarn start' 'cd ./main && yarn start'"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "concurrently": "7.2.1"
+  }
+}
