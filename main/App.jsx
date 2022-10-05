@@ -1,4 +1,4 @@
-import React from 'lib-app/react';
+import React from 'react';
 import Button from 'component-app/Button';
 import Dialog from 'component-app/Dialog';
 import ToolTip from 'component-app/ToolTip';

@@ -42,9 +42,7 @@ module.exports = {
         './Logo': './src/Logo.jsx',
         './ToolTip': './src/ToolTip.jsx',
       },
-      remotes: {
-        'lib-app': 'lib_app@http://localhost:3000/remoteEntry.js',
-      },
+      shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
